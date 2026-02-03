@@ -685,6 +685,7 @@ int main(int argc, char *argv[])
 		}
 	}
 
+	// Free Memory
 	free_trie(route_table);
 	free(arp_table);
 	free(queue);
